@@ -1,73 +1,72 @@
-# HealthInsurance-payment-prediction-App
-📌 Overview:
 
-This project is an end-to-end machine learning application that predicts insurance payment amounts based on user health and demographic data. It demonstrates the complete workflow from preprocessing and feature encoding to model deployment using Streamlit.
+---
 
-🧠 Problem Statement
+# 🏥 HEALTH INSURANCE PREDICTION 
 
-Insurance costs depend on multiple personal and health-related factors. This project aims to:
 
-Predict insurance charges accurately
+## Overview
 
-Help users understand cost-driving factors
+This project is a machine learning application that predicts insurance costs based on health and demographic data. It demonstrates regression modeling, feature scaling, and deployment using Streamlit.
 
-Demonstrate regression modeling in a real-world scenario
+---
 
-⚙️ Tech Stack
+## Objectives
 
-1.Python
+- Predict insurance charges accurately  
+- Analyze impact of health and lifestyle factors  
+- Build a real-time prediction system  
 
-2.Pandas & NumPy
+---
 
-3.Scikit-learn
+## Dataset
 
-4.Streamlit
+- Insurance dataset with health and personal details  
 
-5.Joblib
+---
 
-🔍 Features
+## Data Processing Steps
 
-✔ Interactive web interface
+- Feature scaling using StandardScaler  
+- Encoding categorical variables  
+- Data transformation  
 
-✔ Real-time prediction
+---
 
-✔ Handles numerical + categorical inputs
+## Model Details
 
-✔ Feature scaling using trained scaler
+- Model: Regression model  
+- Input: Scaled + encoded features  
+- Output: Predicted insurance cost  
 
-✔ Clean and simple UI
+---
 
-📊 Input Features
+## Features Used
 
-The model uses:
+- Age  
+- Gender  
+- BMI  
+- Blood Pressure  
+- Children  
+- Diabetic Status  
+- Smoking Status  
 
--Age
+---
 
--Gender
+## Application Features
 
--BMI
+- Interactive Streamlit interface  
+- Real-time predictions  
+- Data preprocessing integration  
+- Simple and clean UI  
 
--Blood Pressure
+---
 
--Number of Children
+## How It Works
 
--Diabetic Status
+User Input → Data Preprocessing → Model Prediction → Output  
 
--Smoking Status
+---
 
-🧪 How It Works
-
--User inputs personal and health details
-
--Categorical data is encoded (0/1 format)
-
--Numerical features are scaled
-
--Data is passed to trained ML model
-
--Model predicts insurance payment amount
-
-Result is displayed instantly
 
 🎯 Key Highlights
 
@@ -79,6 +78,8 @@ Result is displayed instantly
 
 ->Demonstrates real-world regression use case
 
+---
+
 🔮 Future Improvements
 
 1.Add feature importance visualization
@@ -88,3 +89,13 @@ Result is displayed instantly
 3.Deploy on cloud
 
 4.Add prediction explanation (SHAP)
+
+---
+
+## How to Run
+
+```bash
+git clone <repo-link>
+cd insurance-app
+pip install -r requirements.txt
+streamlit run app.py
