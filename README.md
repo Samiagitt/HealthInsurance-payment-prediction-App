@@ -28,9 +28,13 @@ Demonstrate regression modeling in a real-world scenario
 🔍 Features
 
 ✔ Interactive web interface
+
 ✔ Real-time prediction
+
 ✔ Handles numerical + categorical inputs
+
 ✔ Feature scaling using trained scaler
+
 ✔ Clean and simple UI
 
 📊 Input Features
